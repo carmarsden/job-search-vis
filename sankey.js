@@ -38,8 +38,7 @@ function drawChart() {
         return `Situation for withdrawing after initial phone screen:
             <ul>
                 <li>1 = I withdrew due to bad fit</li>
-                <li>1 = I withdrew before they responded with a decision</li>
-                <li>1 = I withdrew but they wanted next steps</li>
+                <li>2 = I withdrew but they had offered next steps</li>
             </ul>
         `
     };
@@ -54,7 +53,7 @@ function drawChart() {
         return `Situation for withdrawing after remote technical interview:
             <ul>
                 <li>1 = I withdrew before they responded with a decision</li>
-                <li>2 = I withdrew but they wanted next steps</li>
+                <li>2 = I withdrew but they had offered next steps</li>
             </ul>
         `
     };
