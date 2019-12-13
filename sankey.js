@@ -52,8 +52,7 @@ function drawChart() {
     function withdrawTechnicalTT() {
         return `Situation for withdrawing after remote technical interview:
             <ul>
-                <li>1 = I withdrew before they responded with a decision</li>
-                <li>2 = I withdrew but they had offered next steps</li>
+                <li>3 = I withdrew but they had offered next steps</li>
             </ul>
         `
     };
